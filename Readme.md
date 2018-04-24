@@ -3,5 +3,5 @@ Well, mount your keys to /keys/.ssh
 Why? Just dont ask...
 example
 
-docker run --rm --interactive --tty -v d:/git/web-stack/appdata/html:/app -v C:\sshkeys\.ssh:/keys/.ssh composer require xyz
+docker run --rm --interactive --tty -v d:/git/web-stack/appdata/html:/app -v C:\sshkeys\.ssh:/keys/.ssh itsreddi/composer require xyz
 
