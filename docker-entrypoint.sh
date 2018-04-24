@@ -50,7 +50,6 @@ isCommand() {
 if [ -d /keys/.ssh/ ]; then
   cp -R /keys/.ssh /root/.ssh
   chmod -Rc 0400 /root/.ssh
-  ls -alh /root/.ssh
 fi
 
 # check if the first argument passed in looks like a flag
